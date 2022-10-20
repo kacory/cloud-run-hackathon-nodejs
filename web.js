@@ -14,8 +14,7 @@ app.post('/', function (req, res) {
   
   // TODO add your implementation here to replace the random response
   
-  res.send(moves[Math.floor(moves.length)]);
-  console.log(res)
+  res.send((moves[1])* moves.length);
 });
 
 app.listen(process.env.PORT || 8080);
