@@ -13,8 +13,8 @@ app.post('/', function (req, res) {
   const moves = ['F', 'T', 'L', 'R'];
   
   // TODO add your implementation here to replace the random response
-  
-  res.send((moves[1])* moves.length);
+ 
+  res.send((moves[1]) * 100);
 });
 
 app.listen(process.env.PORT || 8080);
